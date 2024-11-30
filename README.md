@@ -1,9 +1,12 @@
 # BioLab: Análisis de Hipertensión Arterial
-Estudiante: Rios Matias
-Carrera: Licenciatura en Bioinformática 
-Facultad de Ingenieria UNER 
+---
+**Estudiante:** Rios Matias
 
+**Carrera:** Licenciatura en Bioinformática 
 
+**Institución:** Facultad de Ingenieria UNER 
+
+---
 
 
 
