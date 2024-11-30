@@ -25,15 +25,16 @@ El objetivo principal de este trabajo es desarrollar una base de datos relaciona
 - **Valor agregado**: Análisis complementarios y visualización de datos mediante herramientas externas como Python y Qt Designer.
 
 ## Estructura del Repositorio
-- `scripts_utiles/`:
-    - `generador_datos.py`:
-    - 
+- `scripts_utiles/`: Contiene scripts auxiliares para la generación de datos y otras tareas relacionadas
+    - `generador_datos.py`: Script para generar datos de prueba que se insertan en la base de datos.
 - `scripts_SQL/`:
-    - `DATOS_PACIENTES.sql`
-    - `TABLAS_PACIENTES.sql`
-- `app.py`
-- `graficas.py`: Colección de consultas avanzadas desarrolladas para el análisis de datos.
+    - `DATOS_PACIENTES.sql`: Contiene las instrucciones para insertar los datos iniciales en las tablas de la base de datos. 
+    - `TABLAS_PACIENTES.sql`: Contiene las instrucciones para crear las tablas principales de la base de datos.
+- `app.py`: Aplicación principal desarrollada con PyQt para la interacción con la base de datos, permitiendo realizar consultas y gestionar los datos relacionados con pacientes y exámenes.
+- `graficas.py`: Contiene una colección de consultas avanzadas y generación de gráficos para el análisis de datos. Útil para visualizar resultados clave obtenidos de la base de datos. 
 - `docs/`: Documentación técnica sobre el diseño de la base de datos, casos de uso y resultados.
+  - `Informe_RiosMatias-BD.pdf`: Informe del trabajo realizado con desarrollo, resultados y conclusiones.
+  - `Slides_RiosMatias_TPF-BD.pdf`: Diapositivas realizadas para la exposición,
 - `README.md`: Este archivo.
 
 ## Requisitos
@@ -53,3 +54,11 @@ Para utilizar este proyecto, es necesario contar con las siguientes herramientas
    ```bash
    git clone https://github.com/MatiasRiosMR/BioLab-TPFinal-BD
    cd BioLab
+   
+2. Preparar el entorno: Asegúrate de tener instalado Python, PyQt, y un gestor de bases de datos compatible (MySQL, PostgreSQL, etc.).
+
+3. Crear la base de datos:
+    - Ejecuta primero `TABLAS_PACIENTES.sql` para crear la estructura de las tablas.
+    - Luego, ejecuta `DATOS_PACIENTES.sql` para insertar los datos iniciales.
+
+4. Ejecutar la aplicación: Usa `app.py`: para interactuar con la base de datos y realizar consultas o análisis.
