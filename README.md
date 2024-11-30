@@ -1,4 +1,12 @@
 # BioLab: Análisis de Hipertensión Arterial
+Estudiante: Rios Matias
+Carrera: Licenciatura en Bioinformática 
+Facultad de Ingenieria UNER 
+
+
+
+
+
 
 Repositorio del Trabajo Integrador Final de la asignatura **Bases de Datos**. Este proyecto se centra en la implementación y análisis de una base de datos para el estudio de la **hipertensión arterial** a partir de datos clínicos recolectados en el laboratorio BioLab.
 
