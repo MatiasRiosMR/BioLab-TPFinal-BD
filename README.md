@@ -25,10 +25,10 @@ El objetivo principal de este trabajo es desarrollar una base de datos relaciona
 - **Valor agregado**: Análisis complementarios y visualización de datos mediante herramientas externas como Python y Qt Designer.
 
 ## Estructura del Repositorio
-- `Herramientas generadoras`:
+- `scripts_utiles/`:
     - `generador_datos.py`:
     - 
-- `SQL`:
+- `scripts_SQL/`:
     - `DATOS_PACIENTES.sql`
     - `TABLAS_PACIENTES.sql`
 - `app.py`
