@@ -53,7 +53,6 @@ Para utilizar este proyecto, es necesario contar con las siguientes herramientas
 1. Clona este repositorio en tu máquina local:
    ```bash
    git clone https://github.com/MatiasRiosMR/BioLab-TPFinal-BD
-   cd BioLab
    
 2. Preparar el entorno: Asegúrate de tener instalado Python, PyQt, y un gestor de bases de datos compatible (MySQL, PostgreSQL, etc.).
 
