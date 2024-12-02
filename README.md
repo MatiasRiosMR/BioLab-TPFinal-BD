@@ -54,7 +54,7 @@ Para utilizar este proyecto, es necesario contar con las siguientes herramientas
    ```bash
    git clone https://github.com/MatiasRiosMR/BioLab-TPFinal-BD
    
-2. Preparar el entorno: Asegúrate de tener instalado Python, PyQt, y un gestor de bases de datos compatible (MySQL, PostgreSQL, etc.).
+2. Preparar el entorno: Asegúrate de tener instalado Python, PyQt, y un gestor de bases de datos compatible (PostgreSQL en preferencia, dado que se realizó en base a este).
 
 3. Crear la base de datos:
     - Ejecuta primero `TABLAS_PACIENTES.sql` para crear la estructura de las tablas.
